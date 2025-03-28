@@ -1,7 +1,7 @@
 "use client";
 
-import { Header, Seperator } from "@/components";
-import { HeroSection, AboutSection, SkillsSection } from "@/sections";
+import { Header, Seperator, Footer } from "@/components";
+import { HeroSection, AboutSection, SkillsSection, ProjectsSection, ContactSection } from "@/sections";
 import { socialInfo, pageInfo, quotes, myInfo } from "@/constants";
 
 // Import images from public directory
@@ -21,7 +21,7 @@ export default function Home() {
       {/*************************
        *         Main
        **************************/}
-      <main className='snap-y snap-mandatory sm-height h-screen overflow-x-hidden scroll-smooth'>
+      <main className='h-screen overflow-x-hidden scroll-smooth'>
         {/*************************
          *      Hero Section
          **************************/}
@@ -38,9 +38,32 @@ export default function Home() {
         {/* Seperator */}
         <Seperator className='hidden seperator sm-height' />
 
-        {/* Skills Section */}
+        {/*************************
+         *     Skills Section
+         **************************/}
         <SkillsSection skills={myInfo.skills} />
+
+        {/* Seperator */}
+        <Seperator className='hidden seperator sm-height' />
+
+        {/*************************
+         *    Projects Section
+         **************************/}
+        <ProjectsSection projects={myInfo.projects} />
+
+        {/* Seperator */}
+        <Seperator className='hidden seperator sm-height' />
+
+        {/*************************
+         *    Contact Section
+         **************************/}
+        <ContactSection contactInfo={myInfo.contactInfo} />
       </main>
+
+      {/*************************
+       *        Footer
+       **************************/}
+      <Footer name='zafeer' socialInfo={socialInfo} />
     </>
   );
 }

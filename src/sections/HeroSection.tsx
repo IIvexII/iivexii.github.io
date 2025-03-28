@@ -14,10 +14,7 @@ type HeroSectionProps = {
 
 export default function HeroSection({ profileImage, compressedProfileImage, quote }: HeroSectionProps) {
   return (
-    <section
-      id='home'
-      className='snap-start flex justify-center bg-black text-white h-screen min-h-[630px] md:max-h-[660px]'
-    >
+    <section id='home' className='flex justify-center bg-black text-white h-screen min-h-[630px] md:max-h-[660px]'>
       <div className='mx-10 h-full w-full flex justify-left items-center max-w-[1024px] max-sm:flex-col-reverse max-sm:space-y-20 max-sm:pb-16'>
         {/* Quote and call to action button*/}
         <div className='flex flex-col space-y-0 max-sm:items-center max-sm:h-full'>

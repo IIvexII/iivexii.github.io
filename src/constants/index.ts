@@ -24,8 +24,8 @@ export const pageInfo = [
   { name: "Home", icon: faHome, link: "#home" },
   { name: "About", icon: faCircleInfo, link: "#about-me" },
   { name: "Skills", icon: faToolbox, link: "#skills" },
-  { name: "Projects", icon: faCompassDrafting, link: "#" },
-  { name: "Contact", icon: faAddressCard, link: "#" },
+  { name: "Projects", icon: faCompassDrafting, link: "#projects" },
+  { name: "Contact", icon: faAddressCard, link: "#contact" },
 ];
 
 export const quotes = [
@@ -65,4 +65,37 @@ export const myInfo = {
     { name: "Django", icon: "/assets/tech-stack/django.svg" },
     { name: "Langchain", icon: "/assets/tech-stack/langchain.png" },
   ],
+
+  projects: [
+    {
+      title: "Portfolio Website",
+      description:
+        "A personal portfolio website built with Next.js and Tailwind CSS featuring responsive design and smooth animations.",
+      image: "/assets/projects/portfolio.jpg",
+      tags: ["Next.js", "React", "Tailwind CSS", "TypeScript"],
+      githubLink: "https://github.com/IIvexII/iivexii.github.io",
+      demoLink: "https://zafeer.portfolio.com.pk",
+    },
+    {
+      title: "E-commerce Platform",
+      description:
+        "A full-stack e-commerce platform with payment integration, product management, and user authentication.",
+      image: "/assets/projects/ecommerce.jpg",
+      tags: ["React", "Node.js", "MongoDB", "Express"],
+      githubLink: "https://github.com/IIvexII",
+    },
+    {
+      title: "Robotics Control System",
+      description:
+        "An embedded system for controlling robotic movements with precision using Arduino and custom sensor integration.",
+      image: "/assets/projects/robotics.jpg",
+      tags: ["Arduino", "C++", "Hardware", "Electronics"],
+      githubLink: "https://github.com/IIvexII",
+    },
+  ],
+
+  contactInfo: {
+    email: "zafeerhafeez@gmail.com",
+    location: "Islamabad, Pakistan",
+  },
 };
