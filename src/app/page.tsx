@@ -1,6 +1,6 @@
 "use client";
 
-import { Header, Seperator, Footer } from "@/components";
+import { Header, Footer } from "@/components";
 import { HeroSection, AboutSection, SkillsSection, ProjectsSection, ContactSection } from "@/sections";
 import { socialInfo, pageInfo, quotes, myInfo } from "@/constants";
 
@@ -27,32 +27,20 @@ export default function Home() {
          **************************/}
         <HeroSection profileImage={profileImage} compressedProfileImage={compProfileImage} quote={quotes[0]} />
 
-        {/* Seperator */}
-        {/* <Seperator className='hidden seperator sm-height' /> */}
-
         {/*************************
          *   About Me Section
          **************************/}
         <AboutSection aboutMe={myInfo.aboutMe} groupImage={groupImage} compressedGroupImage={compGroupImage} />
-
-        {/* Seperator */}
-        <Seperator className='hidden seperator sm-height' />
 
         {/*************************
          *     Skills Section
          **************************/}
         <SkillsSection skills={myInfo.skills} />
 
-        {/* Seperator */}
-        {/* <Seperator className='hidden seperator sm-height' /> */}
-
         {/*************************
          *    Projects Section
          **************************/}
         <ProjectsSection projects={myInfo.projects} />
-
-        {/* Seperator */}
-        {/* <Seperator className='hidden seperator sm-height' /> */}
 
         {/*************************
          *    Contact Section

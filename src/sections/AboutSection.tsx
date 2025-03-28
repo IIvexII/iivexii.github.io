@@ -28,7 +28,7 @@ export default function AboutSection({ aboutMe, groupImage, compressedGroupImage
     <section
       id='about-me'
       ref={sectionRef}
-      className='flex justify-center items-center bg-black text-white min-h-screen h-fit relative overflow-hidden'
+      className='flex justify-center items-center bg-black text-white h-fit min-h-[650px] relative overflow-hidden '
     >
       {/* Animated decorative elements - hidden on small screens */}
       <motion.div
