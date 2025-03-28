@@ -80,7 +80,7 @@ export default function HeroSection({ profileImage, compressedProfileImage, quot
         {/* My Image */}
         <article
           className={`h-full w-full flex justify-center items-center transition-all duration-1000 ${
-            isLoaded ? "opacity-100 translate-y-0 rotate-0" : "opacity-0 translate-y-10 rotate-12"
+            isLoaded ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
           }`}
         >
           <div className='relative'>
