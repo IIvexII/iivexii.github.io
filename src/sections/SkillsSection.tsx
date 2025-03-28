@@ -13,7 +13,7 @@ type SkillsSectionProps = {
 export default function SkillsSection({ skills }: SkillsSectionProps) {
   const sectionRef = useRef(null);
   const { ref, inView } = useInView({
-    triggerOnce: true,
+    triggerOnce: false,
     threshold: 0.1,
   });
 

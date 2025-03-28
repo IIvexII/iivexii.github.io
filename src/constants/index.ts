@@ -63,29 +63,25 @@ export const myInfo = {
 
   projects: [
     {
-      title: "Portfolio Website",
+      title: "LineAudio: Real-Time Audio Meeting App with Role-Based Access",
       description:
-        "A personal portfolio website built with Next.js and Tailwind CSS featuring responsive design and smooth animations.",
-      image: "/assets/projects/portfolio.jpg",
-      tags: ["Next.js", "React", "Tailwind CSS", "TypeScript"],
-      githubLink: "https://github.com/IIvexII/iivexii.github.io",
-      demoLink: "https://zafeer.portfolio.com.pk",
+        "A real-time audio meeting app that allows users to join meetings with role-based access control, built using React Native and Expo.",
+      image: "/assets/images/projects/LineAudio.png",
+      tags: ["React Native", "Expo", "NativeWind", "LiveKit"],
     },
     {
-      title: "E-commerce Platform",
-      description:
-        "A full-stack e-commerce platform with payment integration, product management, and user authentication.",
-      image: "/assets/projects/ecommerce.jpg",
-      tags: ["React", "Node.js", "MongoDB", "Express"],
-      githubLink: "https://github.com/IIvexII",
+      title: "ForecastFlow: See the Future of Weather on Your Phone",
+      description: "A weather app that provides real-time weather updates and forecasts, built using React Native.",
+      image: "/assets/images/projects/ForecastFlow.png",
+      tags: ["React Native", "Expo", "Skia", "Reanimated v3", "React Query"],
     },
     {
-      title: "Robotics Control System",
+      title: "DevGuard: A Platform for freelancers to protect against non-paying clients",
       description:
-        "An embedded system for controlling robotic movements with precision using Arduino and custom sensor integration.",
-      image: "/assets/projects/robotics.jpg",
-      tags: ["Arduino", "C++", "Hardware", "Electronics"],
-      githubLink: "https://github.com/IIvexII",
+        "A platform that helps freelancers protect themselves against non-paying clients by providing a unique way of blocking/unblocking apps from the dashboard.",
+      image: "/assets/images/projects/DevGuard.png",
+      tags: ["Next.js", "Tailwind CSS", "Supabase", "Next-Auth", "Vercel"],
+      demoLink: "https://devguard.zafeer.pk/",
     },
   ],
 
