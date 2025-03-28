@@ -28,7 +28,7 @@ export default function Home() {
         <HeroSection profileImage={profileImage} compressedProfileImage={compProfileImage} quote={quotes[0]} />
 
         {/* Seperator */}
-        <Seperator className='hidden seperator sm-height' />
+        {/* <Seperator className='hidden seperator sm-height' /> */}
 
         {/*************************
          *   About Me Section
@@ -44,7 +44,7 @@ export default function Home() {
         <SkillsSection skills={myInfo.skills} />
 
         {/* Seperator */}
-        <Seperator className='hidden seperator sm-height' />
+        {/* <Seperator className='hidden seperator sm-height' /> */}
 
         {/*************************
          *    Projects Section
@@ -52,7 +52,7 @@ export default function Home() {
         <ProjectsSection projects={myInfo.projects} />
 
         {/* Seperator */}
-        <Seperator className='hidden seperator sm-height' />
+        {/* <Seperator className='hidden seperator sm-height' /> */}
 
         {/*************************
          *    Contact Section

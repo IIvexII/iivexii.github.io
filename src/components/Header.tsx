@@ -14,7 +14,7 @@ type HeaderProps = {
 
 export default function Header({ name, socialInfo, pageInfo }: HeaderProps) {
   return (
-    <header className='fixed z-10 py-3 px-8 pb-4 w-full flex justify-center items-center bg-white bg-opacity-95'>
+    <header className='fixed z-[1000] py-3 px-8 pb-4 w-full flex justify-center items-center bg-white bg-opacity-95'>
       <div className='w-full flex justify-between items-center max-w-[1024px]'>
         {/* Navigation Hamburger for mobiles */}
         <Hamburger pageInfo={pageInfo} />

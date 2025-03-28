@@ -30,7 +30,7 @@ export const pageInfo = [
 
 export const quotes = [
   {
-    text: "{Clarity} about what matters provides clarity about what does not.",
+    text: "He who has a {why} to live can bear almost any {how}.",
     reference: "Cal Newport",
   },
 ];

@@ -33,6 +33,74 @@ body {
   .custom-transition {
     @apply transition-all duration-300 ease-in-out;
   }
+
+  .animate-float {
+    animation: float 6s ease-in-out infinite;
+  }
+
+  .animate-bounce-slow {
+    animation: bounce 3s ease-in-out infinite;
+  }
+
+  .animate-pulse-slow {
+    animation: pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  }
+
+  .typewriter span {
+    border-right: 2px solid white;
+    animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
+  }
+}
+
+/* Matrix box animation */
+.matrix-box {
+  animation: matrixPulse 5s infinite alternate;
+}
+
+@keyframes matrixPulse {
+  0% {
+    opacity: var(--opacity, 0.05);
+    transform: scale(0.95);
+  }
+  50% {
+    opacity: calc(var(--opacity, 0.05) + 0.1);
+    transform: scale(1);
+  }
+  100% {
+    opacity: var(--opacity, 0.05);
+    transform: scale(0.95);
+  }
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-15px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: white;
+  }
 }
 
 /* Media Query of max height 630 */
