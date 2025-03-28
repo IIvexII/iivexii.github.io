@@ -1,7 +1,7 @@
 "use client";
 
 import { Header, Footer } from "@/components";
-import { HeroSection, AboutSection, SkillsSection, ProjectsSection, ContactSection } from "@/sections";
+import { HeroSection, AboutSection, SkillsSection, ProjectsSection } from "@/sections";
 import { socialInfo, pageInfo, quotes, myInfo } from "@/constants";
 
 // Import images from public directory
@@ -21,7 +21,7 @@ export default function Home() {
       {/*************************
        *         Main
        **************************/}
-      <main className='h-screen overflow-x-hidden scroll-smooth'>
+      <main className='scroll-smooth'>
         {/*************************
          *      Hero Section
          **************************/}
@@ -41,17 +41,12 @@ export default function Home() {
          *    Projects Section
          **************************/}
         <ProjectsSection projects={myInfo.projects} />
-
-        {/*************************
-         *    Contact Section
-         **************************/}
-        <ContactSection contactInfo={myInfo.contactInfo} />
       </main>
 
       {/*************************
        *        Footer
        **************************/}
-      <Footer name='zafeer' socialInfo={socialInfo} />
+      <Footer authorName='zafeer.' socialLinks={socialInfo} email={myInfo.contactInfo.email} />
     </>
   );
 }
