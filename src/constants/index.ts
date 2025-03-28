@@ -31,19 +31,14 @@ export const pageInfo = [
 export const quotes = [
   {
     text: "He who has a {why} to live can bear almost any {how}.",
-    reference: "Cal Newport",
+    reference: "Friedrich Nietzsche",
   },
 ];
 
 export const myInfo = {
-  aboutMe: `As a computer science student, I have a strong passion for {designing
-    and developing systems} that solve real-world problems. I am a
-    self-taught computer programmer with strong foundations in web development, 
-    embedded system programming, and system designing. I am very consious about the
-    code quality and follow best practices in almost all my projects. 
-    I have an interest in robotics as well. During my tenure as a {Technical Head} 
-    at GEARS (Garrison Engineering and Robotics Society), 
-    we have participated in various national robotic competitions and have won several awards.`,
+  aboutMe: `My tech story starts with cybersecurity, where I learned to protect systems when I did then CEH. Then I fell in love with frontend development. Backend development taught me to build the systems behind the scenes, and AI chatbots showed me how tech could connect with people and solve their problems by understanding them. {But when I built my first mobile app, it all clicked.}
+  
+  React Native became my home. Here, I combine everything—secure code from my cybersecurity days, polished UI/UX from frontend work, scalable logic from backend systems, and smart features inspired by AI. Apps aren’t just tools; they’re bridges between problems and solutions.`,
 
   skills: [
     { name: "Python", icon: "/assets/tech-stack/python.svg" },
