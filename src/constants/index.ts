@@ -86,7 +86,7 @@ export const myInfo = {
   ],
 
   contactInfo: {
-    email: "zafeerhafeez@gmail.com",
-    location: "Islamabad, Pakistan",
+    email: "contact@zafeer.pk",
+    location: "Lahore, Pakistan",
   },
 };
