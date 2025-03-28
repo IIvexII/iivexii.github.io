@@ -27,17 +27,14 @@ export default function HeroSection({ profileImage, compressedProfileImage, quot
   }, []);
 
   return (
-    <section
-      id='home'
-      className='relative flex justify-center bg-black text-white h-screen min-h-fit sm:min-h-[500px] overflow-hidden'
-    >
+    <section id='home' className='relative flex justify-center bg-black text-white min-h-screen pt-20 overflow-hidden'>
       {/* Matrix Background */}
       <MatrixBackground />
 
       {/* Gradient overlay for smooth transition */}
       <div className='absolute bottom-0 left-0 right-0 h-[120px] bg-gradient-to-t from-black to-transparent z-[1]'></div>
 
-      <div className='relative z-10 mx-10 py-20 sm:py-0 h-full w-full flex justify-left gap-20 items-center max-w-[1024px] max-sm:flex-col-reverse max-sm:space-y-20 max-sm:pb-16'>
+      <div className='relative z-10 mx-10 py-20 sm:py-12 h-full w-full flex justify-left gap-20 items-center max-w-[1024px] max-sm:flex-col-reverse max-sm:space-y-20 max-sm:pb-16'>
         {/* Quote and call to action button*/}
         <div
           className={`flex flex-col space-y-0 max-sm:items-center max-sm:h-full transition-all duration-1000 ${
