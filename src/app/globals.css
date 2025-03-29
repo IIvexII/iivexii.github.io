@@ -135,12 +135,10 @@ body {
 }
 
 .stars {
-  background: transparent url("/stars.png") repeat;
   animation: animateStars 50s linear infinite;
 }
 
 .stars2 {
-  background: transparent url("/stars.png") repeat;
   animation: animateStars 100s linear infinite;
   background-size: 500px;
   opacity: 0.4;

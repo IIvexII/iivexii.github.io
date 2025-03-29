@@ -36,13 +36,22 @@ export const quotes = [
 ];
 
 export const myInfo = {
-  aboutMe: `My tech story starts with cybersecurity, where I learned to protect systems when I did then CEH. Then I fell in love with frontend development. Backend development taught me to build the systems behind the scenes, and AI chatbots showed me how tech could connect with people and solve their problems by understanding them. {But when I built my first mobile app, it all clicked.}
-  
-  React Native became my home. Here, I combine everything—secure code from my cybersecurity days, polished UI/UX from frontend work, scalable logic from backend systems, and smart features inspired by AI. Apps aren’t just tools; they’re bridges between problems and solutions.`,
+  aboutMe: `I started my tech journey in cybersecurity, learning how to keep systems safe and write secure code. Then I found frontend development and got hooked on creating beautiful, engaging designs. Backend development came next, teaching me how to build the powerful systems that run everything smoothly behind the scenes.
+
+But things really clicked {when I built my first mobile app}. That’s when React Native became my home—a place where I bring it all together: secure coding from my cybersecurity days, eye-catching UI/UX from frontend work, and rock-solid systems from the backend. For me, apps aren’t just tools—they’re the perfect way to solve problems and make life a little easier.`,
 
   skills: [
     { name: "React Native", icon: "/assets/tech-stack/react.svg" },
+    { name: "Expo", icon: "/assets/tech-stack/expo.png" },
+    { name: "Skia", icon: "/assets/tech-stack/skia.png" },
+    { name: "Reanimated v3", icon: "/assets/tech-stack/reanimated.svg" },
+
+    { name: "NativeWind", icon: "/assets/tech-stack/nativewind.svg" },
+    { name: "LiveKit", icon: "/assets/tech-stack/livekit.png" },
+    { name: "TypeScript", icon: "/assets/tech-stack/typescript.svg" },
+
     { name: "JavaScript", icon: "/assets/tech-stack/javascript.svg" },
+    { name: "Next.js", icon: "/assets/tech-stack/nextjs.svg" },
     { name: "Redux", icon: "/assets/tech-stack/redux.svg" },
     { name: "Tailwind", icon: "/assets/tech-stack/tailwindcss-icon.svg" },
     { name: "GitHub", icon: "/assets/tech-stack/github-icon.svg" },
