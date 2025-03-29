@@ -29,7 +29,14 @@ export default function Hamburger({ pageInfo }: HamburgerProps) {
   return (
     // hamburger button
     <nav className='relative text-5xl hidden max-sm:text-2xl max-sm:block hover:scale-105 focus:scale-105 transition duration-300 ease-in-out'>
-      <div onClick={() => setShow(!show)} className='cursor-pointer'>
+      <div
+        onClick={() => setShow(!show)}
+        className='cursor-pointer'
+        role='button'
+        aria-label='Menu'
+        aria-expanded={show}
+        tabIndex={0}
+      >
         <FontAwesomeIcon icon={faHamburger} />
       </div>
 
@@ -48,6 +55,7 @@ export default function Hamburger({ pageInfo }: HamburgerProps) {
               className={`group relative w-full py-3 px-3 text-lg transition-all duration-300 hover:bg-black hover:text-white ${
                 index === 0 ? "pt-6 rounded-t-full" : ""
               }`}
+              aria-label={page.name}
             >
               <FontAwesomeIcon icon={page.icon} className='w-5' />
 

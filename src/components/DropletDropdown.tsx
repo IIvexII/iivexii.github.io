@@ -33,6 +33,10 @@ export default function DropletDropdown({ className, socialInfo }: DropletDropdo
       <div
         onClick={() => setShowDropdown(!showDropdown)}
         className='bg-black text-base py-1 px-5 text-white rounded-full cursor-pointer hover:bg-slate-800 transition duration-300 ease-in-out'
+        role='button'
+        aria-label='Social links'
+        aria-expanded={showDropdown}
+        tabIndex={0}
       >
         <FontAwesomeIcon icon={faLink} className='w-5' />
       </div>
@@ -58,6 +62,7 @@ export default function DropletDropdown({ className, socialInfo }: DropletDropdo
                 target='_blank'
                 rel='noopener noreferrer'
                 className='flex items-center justify-center'
+                aria-label={social.name}
               >
                 <FontAwesomeIcon icon={social.icon} />
               </a>

@@ -31,6 +31,7 @@ export default function Header({ name, socialInfo, pageInfo }: HeaderProps) {
               href={page.link}
               key={index}
               className='group relative flex flex-col justify-center items-center py-3 px-3 hover:bg-black hover:text-white rounded-full transition-all duration-300'
+              aria-label={page.name}
             >
               <FontAwesomeIcon icon={page.icon} className='w-5' />
               <p className='group-hover:opacity-100 group-hover:visible opacity-0 invisible absolute translate-y-10 text-xs text-black bg-white px-3 py-1 border border-gray-300 rounded transition duration-300 ease-in-out'>

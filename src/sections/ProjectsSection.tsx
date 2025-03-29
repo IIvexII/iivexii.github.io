@@ -108,9 +108,9 @@ export default function ProjectsSection({ projects }: ProjectsSectionProps) {
                 />
               </div>
               <div className='py-4'>
-                <h3 className='text-xl text-blue-400 group-hover:text-blue-500 transition duration-300'>
+                <h2 className='text-xl text-blue-400 group-hover:text-blue-500 transition duration-300'>
                   {project.title}
-                </h3>
+                </h2>
               </div>
             </motion.div>
           ))}

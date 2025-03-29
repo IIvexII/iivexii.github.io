@@ -114,6 +114,7 @@ export default function ContactSection({ contactInfo }: ContactSectionProps) {
               <a
                 href={`mailto:${contactInfo.email}`}
                 className='group-hover:text-blue-400 transition-colors duration-300'
+                aria-label={`Email: ${contactInfo.email}`}
               >
                 {contactInfo.email}
               </a>
@@ -127,6 +128,7 @@ export default function ContactSection({ contactInfo }: ContactSectionProps) {
                 <a
                   href={`tel:${contactInfo.phone}`}
                   className='group-hover:text-blue-400 transition-colors duration-300'
+                  aria-label={`Phone: ${contactInfo.phone}`}
                 >
                   {contactInfo.phone}
                 </a>
