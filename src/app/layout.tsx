@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Zafeer | React Native Developer",
+  title: "Zafeer",
   description:
     "Personal portfolio of Zafeer, a React Native developer specializing in mobile app development with experience in frontend, backend, and cybersecurity.",
   keywords: [
