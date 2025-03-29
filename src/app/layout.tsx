@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Zafeer",
   description:
-    "Personal portfolio of Zafeer, a React Native developer specializing in mobile app development with experience in frontend, backend, and cybersecurity.",
+    "Zafeer, a React Native developer specializing in mobile app development with experience in frontend, backend, and cybersecurity.",
   keywords: [
     "Portfolio",
     "Zafeer",
@@ -36,7 +36,7 @@ export const metadata: Metadata = {
     canonical: "/",
   },
   openGraph: {
-    title: "Zafeer | React Native Developer",
+    title: "Zafeer.pk",
     description:
       "Personal portfolio of Zafeer, a React Native developer specializing in mobile app development with experience in frontend, backend, and cybersecurity.",
     url: "https://zafeer.pk",
@@ -54,7 +54,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Zafeer | React Native Developer",
+    title: "Zafeer.pk",
     description: "Personal portfolio showcasing React Native and web development projects",
     creator: "@Zafeer_Hafeez",
     images: ["/api/og"], // Also use the dynamic OG image here
@@ -82,7 +82,7 @@ export default function RootLayout({
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "Person",
-              name: "Zafeer Hafeez",
+              name: "Zafeer",
               url: "https://zafeer.pk",
               email: "contact@zafeer.pk",
               jobTitle: "React Native Developer",
