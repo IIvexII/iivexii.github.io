@@ -42,7 +42,7 @@ export default function SkillsSection({ skills }: SkillsSectionProps) {
       <div className='mx-10 h-full w-full flex justify-center items-center max-w-[1024px] max-sm:flex-col-reverse max-sm:space-y-20 max-sm:pb-16 relative z-10'>
         <div className='mt-56 w-full h-full flex flex-col space-y-16 justify-start items-center max-sm:mt-32'>
           {/* Top Title */}
-          <motion.h1
+          <motion.h2
             initial={{ opacity: 0, y: -20 }}
             animate={inView ? { opacity: 1, y: 0 } : { opacity: 0, y: -20 }}
             transition={{ duration: 0.5 }}
@@ -55,7 +55,7 @@ export default function SkillsSection({ skills }: SkillsSectionProps) {
               transition={{ duration: 0.8, delay: 0.5 }}
               style={{ transformOrigin: "left" }}
             ></motion.div>
-          </motion.h1>
+          </motion.h2>
 
           {/* List of all skills */}
           <motion.div

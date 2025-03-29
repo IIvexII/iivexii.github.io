@@ -66,7 +66,7 @@ export default function ProjectsSection({ projects }: ProjectsSectionProps) {
       className='flex justify-center bg-black text-white min-h-[650px] py-16 relative'
     >
       <div className='mx-10 w-full flex flex-col items-center max-w-[1024px] z-10'>
-        <motion.h1
+        <motion.h2
           className='text-5xl font-bold text-white mb-10 select-none relative'
           initial={{ opacity: 0, y: -20 }}
           animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: -20 }}
@@ -80,7 +80,7 @@ export default function ProjectsSection({ projects }: ProjectsSectionProps) {
             transition={{ duration: 0.8 }}
             style={{ transformOrigin: "left" }}
           ></motion.span>
-        </motion.h1>
+        </motion.h2>
 
         {/* Project Catalog */}
         <motion.div

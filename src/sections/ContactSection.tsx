@@ -86,7 +86,7 @@ export default function ContactSection({ contactInfo }: ContactSectionProps) {
           animate={inView ? { opacity: 1, x: 0 } : { opacity: 0, x: -30 }}
           transition={{ duration: 0.6 }}
         >
-          <motion.h1
+          <motion.h2
             className='text-5xl mb-8 select-none relative'
             initial={{ opacity: 0 }}
             animate={inView ? { opacity: 1 } : { opacity: 0 }}
@@ -99,7 +99,7 @@ export default function ContactSection({ contactInfo }: ContactSectionProps) {
               transition={{ duration: 0.8, delay: 0.5 }}
               style={{ transformOrigin: "left" }}
             ></motion.div>
-          </motion.h1>
+          </motion.h2>
 
           <motion.div
             className='space-y-6 mt-10 backdrop-blur-sm bg-black/20 p-6 rounded-lg border border-white/10'

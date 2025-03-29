@@ -58,7 +58,7 @@ export default function AboutSection({ aboutMe, groupImage, compressedGroupImage
           animate={{ opacity: articleInView ? 1 : 0, y: articleInView ? 0 : 30 }}
           transition={{ duration: 0.8 }}
         >
-          <motion.h1
+          <motion.h2
             ref={headingRef}
             className='text-5xl font-bold text-white max-md:text-3xl max-sm:text-center transition duration-500 ease-in-out select-none relative'
             initial={{ opacity: 0 }}
@@ -72,7 +72,7 @@ export default function AboutSection({ aboutMe, groupImage, compressedGroupImage
               animate={{ width: headingInView ? 80 : 0 }}
               transition={{ duration: 0.8, delay: 0.5 }}
             ></motion.span>
-          </motion.h1>
+          </motion.h2>
           <motion.p
             className='text-lg text-justify hyphens-auto max-lg:text-lg max-[900px]:text-base custom-transition select-none leading-relaxed text-gray-200'
             initial={{ opacity: 0 }}
