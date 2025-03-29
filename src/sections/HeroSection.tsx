@@ -44,6 +44,9 @@ export default function HeroSection({ profileImage, compressedProfileImage, quot
             isLoaded ? "opacity-100 translate-x-0" : "opacity-0 -translate-x-10"
           }`}
         >
+          {/* Main H1 heading - visible to screen readers but styled like the quote */}
+          <h1 className='sr-only'>Zafeer Hafeez - React Native Developer Portfolio</h1>
+
           {/* Quote */}
           <blockquote className='z-[5] text-5xl text-justify hyphens-auto max-sm:text-3xl max-sm:text-center max-md:text-4xl select-none transition duration-300 ease-in-out'>
             <span className='font-serif italic mr-1 animate-pulse'>&quot;</span>

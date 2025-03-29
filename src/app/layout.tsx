@@ -13,9 +13,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Zafeer",
+  title: "Zafeer Hafeez | React Native Developer & Software Engineer",
   description:
-    "Zafeer, a React Native developer specializing in mobile app development with experience in frontend, backend, and cybersecurity.",
+    "Zafeer Hafeez - An experienced React Native developer specialized in mobile app development, frontend, backend, and cybersecurity solutions. View my portfolio and projects.",
   keywords: [
     "Portfolio",
     "Zafeer",
@@ -25,6 +25,8 @@ export const metadata: Metadata = {
     "Zafeer Developer",
     "Zafeer UpWork",
     "Zafeer Freelancer",
+    "React Native Developer",
+    "Mobile App Developer",
   ],
 
   authors: [{ name: "Zafeer" }],
@@ -36,9 +38,9 @@ export const metadata: Metadata = {
     canonical: "/",
   },
   openGraph: {
-    title: "Zafeer.pk",
+    title: "Zafeer Hafeez | React Native & Web Development Portfolio",
     description:
-      "Personal portfolio of Zafeer, a React Native developer specializing in mobile app development with experience in frontend, backend, and cybersecurity.",
+      "Personal portfolio of Zafeer Hafeez, a React Native developer specializing in mobile app development with experience in frontend, and backend development.",
     url: "https://zafeer.pk",
     siteName: "Zafeer Portfolio",
     images: [
@@ -54,8 +56,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Zafeer.pk",
-    description: "Personal portfolio showcasing React Native and web development projects",
+    title: "Zafeer Hafeez | Mobile & Web Developer Portfolio",
+    description: "Personal portfolio showcasing React Native and web development projects by Zafeer Hafeez",
     creator: "@Zafeer_Hafeez",
     images: ["/api/og"], // Also use the dynamic OG image here
   },
