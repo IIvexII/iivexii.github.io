@@ -10,7 +10,7 @@ export default function MatrixBackground() {
     const generateBoxes = () => {
       const newBoxes = [];
       const cols = Math.floor(window.innerWidth / 40); // Adjust box size here
-      const rows = Math.floor(window.innerHeight / 40);
+      const rows = Math.floor(Math.max(window.innerHeight, 720) / 40); // Minimum height is 720px
 
       for (let y = 0; y < rows; y++) {
         for (let x = 0; x < cols; x++) {
