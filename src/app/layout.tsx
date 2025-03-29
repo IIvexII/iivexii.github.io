@@ -16,7 +16,17 @@ export const metadata: Metadata = {
   title: "Zafeer | React Native Developer",
   description:
     "Personal portfolio of Zafeer, a React Native developer specializing in mobile app development with experience in frontend, backend, and cybersecurity.",
-  keywords: ["React Native", "Mobile Development", "Frontend Developer", "JavaScript", "Portfolio", "Zafeer Hafeez"],
+  keywords: [
+    "Portfolio",
+    "Zafeer",
+    "Zafeer Name Meaning",
+    "Zafeer Hafeez",
+    "Zafeer Hafeez Portfolio",
+    "Zafeer Developer",
+    "Zafeer UpWork",
+    "Zafeer Freelancer",
+  ],
+
   authors: [{ name: "Zafeer" }],
   creator: "Zafeer",
   publisher: "Zafeer",
