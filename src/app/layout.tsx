@@ -59,11 +59,6 @@ export const metadata: Metadata = {
     creator: "@Zafeer_Hafeez",
     images: ["/api/og"], // Also use the dynamic OG image here
   },
-  verification: {
-    // Add these when you have them
-    // google: "your-google-verification-code",
-    // yandex: "your-yandex-verification-code",
-  },
 };
 
 export default function RootLayout({
